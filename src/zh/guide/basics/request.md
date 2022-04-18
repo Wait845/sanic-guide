@@ -110,7 +110,7 @@ File(type='application/octet-stream', body=b'hello\n', name='TEST')
 
 `request.ctx` 对象是存储请求相关信息的地方。
 
-这里通常被用来存储服务端通过某些验证后需要临时存储的身份认证信息以及专有变量等内容。更多的具体内容我们将在 [中间件](/zh/guide/advanced/middleware.md) 这一章节进行更多的描述，下面是一个简单的例子。
+这里通常被用来存储服务端通过某些验证后需要临时存储的身份认证信息以及专有变量等内容。更多的具体内容我们将在 [中间件](/zh/guide/basics/middleware.md) 这一章节进行更多的描述，下面是一个简单的例子。
 
 ```python
 @app.middleware("request")
